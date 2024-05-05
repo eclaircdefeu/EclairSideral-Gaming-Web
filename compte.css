@@ -1,0 +1,15 @@
+.contenue {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.connection {
+  background-color: rgb(40,40,40);
+  padding: 10%;
+}
+
+.creation {
+  background-color: rgb(40,40,40);
+  padding: 10%;
+}

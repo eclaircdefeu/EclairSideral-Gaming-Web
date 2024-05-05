@@ -2,18 +2,20 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  color: white;
-  text-decoration: none;
 }
 
 .connection {
   background-color: rgb(40,40,40);
   padding: 10%;
   text-align: center;
+  color: white;
+  text-decoration: none;
 }
 
 .creation {
   background-color: rgb(40,40,40);
   padding: 10%;
   text-align: center;
+  color: white;
+  text-decoration: none;
 }

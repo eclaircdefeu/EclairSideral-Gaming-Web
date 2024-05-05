@@ -8,7 +8,7 @@ body {
   flex-direction: row;
 }
 
-.menu a {
+a {
   text-decoration: none;
   color: white;
 }

@@ -6,7 +6,7 @@
   margin-top: 50px;
 }
 
-.article .article-vip {
+.article {
   width: 33%;
   heigth: 75px;
   background-color: rgb(40,40,40);
@@ -16,5 +16,10 @@
 }
 
 .article-vip {
+  width: 33%;
+  heigth: 75px;
+  text-align: center;
+  flex-basis: calc(33.33% - 20px);
+  margin-bottom: 20px;
   background-color: rgb(255, 215, 0);
 }

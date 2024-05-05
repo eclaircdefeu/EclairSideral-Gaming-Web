@@ -1,1 +1,12 @@
+.contenue {
+  display: flex;
+  flex-direction: row;
+  wrap: wrap;
+  justify-content: space-evenly;
+}
 
+.article {
+  widht: 25%;
+  heigth: 50px;
+  background-color: rgb(40,40,40);
+}

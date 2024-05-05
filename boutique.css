@@ -8,7 +8,7 @@
 
 .article {
   width: 33%;
-  heigth: 200px;
+  heigth: 250px;
   background-color: rgb(40,40,40);
   text-align: center;
   flex-basis: calc(33.33% - 20px);

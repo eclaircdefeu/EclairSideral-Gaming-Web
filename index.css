@@ -3,12 +3,12 @@ body {
   color: white;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
 .menu {
   display: flex;
   flex-direction: row;
-}
-
-a {
-  text-decoration: none;
-  color: white;
 }

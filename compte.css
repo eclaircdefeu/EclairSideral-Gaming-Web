@@ -1,21 +1,13 @@
 .contenue {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin-top: 50px;
 }
 
-.connection {
+.connection, .creation {
+  width: 50%;
   background-color: rgb(40,40,40);
-  padding: 50%;
-  text-align: center;
-  color: white;
-  text-decoration: none;
-}
-
-.creation {
-  background-color: rgb(40,40,40);
-  padding: 50%;
   text-align: center;
   color: white;
   text-decoration: none;

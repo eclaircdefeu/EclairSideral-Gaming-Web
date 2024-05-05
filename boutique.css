@@ -26,8 +26,10 @@
 
 #dispo {
   background-color: green;
+  margin-bottom: 10px;
 }
 
 #indispo {
   background-color: red;
+  margin-bottom: 10px;
 }

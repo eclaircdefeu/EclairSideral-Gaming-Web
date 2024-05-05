@@ -9,7 +9,6 @@ a {
 }
 
 .menu {
-  text-align: center;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }

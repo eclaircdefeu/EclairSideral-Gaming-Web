@@ -13,3 +13,11 @@
   color: white;
   text-decoration: none;
 }
+
+.connection:hover {
+  background-color: rgb(40,40,40);
+}
+
+.creation:hover {
+  background-color: rgb(40,40,40);
+}

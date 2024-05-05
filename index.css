@@ -6,15 +6,26 @@ body {
 .menu a {
   color: white;
   text-decoration: none;
-  transition: white 0.3s ease;
-}
-
-.menu a:hover {
-  text-decoration: underline;
+  position: relative; /* Pour positionner le pseudo-élément */
 }
 
 .menu {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+
+.menu a::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px; /* Hauteur du soulignement */
+  bottom: 0;
+  left: 0; /* Départ du soulignement */
+  background-color: white;
+  transition: width 0.3s ease; /* Animation de la largeur */
+}
+
+.menu a:hover::before {
+  width: 100%; /* Fin du soulignement */
 }

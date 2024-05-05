@@ -1,16 +1,20 @@
 .contenue {
   display: flex;
   flex-direction: row;
-  wrap: wrap;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   margin-top: 50px;
 }
 
-.article {
+.article .article-vip {
   width: 33%;
   heigth: 75px;
   background-color: rgb(40,40,40);
   text-align: center;
   flex-basis: calc(33.33% - 20px);
   margin-bottom: 20px;
+}
+
+.article-vip {
+  background-color: rgb(255, 215, 0);
 }

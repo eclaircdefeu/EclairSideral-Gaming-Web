@@ -3,9 +3,14 @@ body {
   color: white;
 }
 
-a {
+.menu a {
   color: white;
   text-decoration: none;
+  transition: white 0.3s ease;
+}
+
+.menu a:hover {
+  text-decoration: underline;
 }
 
 .menu {

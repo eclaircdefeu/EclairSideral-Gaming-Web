@@ -28,5 +28,8 @@ body {
 
 .menu a:hover::before {
   width: 100%; /* Fin du soulignement */
+}
+
+.menu a:hover::after {
   left: 0;
 }

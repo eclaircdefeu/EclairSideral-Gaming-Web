@@ -6,7 +6,7 @@ body {
 .menu a {
   color: white;
   text-decoration: none;
-  position: relative; /* Pour positionner le pseudo-élément */
+  position: relative;
 }
 
 .menu {
@@ -19,17 +19,29 @@ body {
   content: "";
   position: absolute;
   width: 0;
-  height: 2px; /* Hauteur du soulignement */
+  height: 2px;
   bottom: 0;
-  left: 0; /* Départ du soulignement */
+  left: 0;
   background-color: white;
-  transition: width 0.3s ease; /* Animation de la largeur */
+  transition: width 0.3s ease;
 }
 
 .menu a:hover::before {
-  width: 100%; /* Fin du soulignement */
+  width: 100%;
+}
+
+.menu a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 2px;
+  background-color: blue;
+  transition: width 0.3s ease, right 0.3s ease;
 }
 
 .menu a:hover::after {
-  left: 0;
+  width: 100%;
+  right: 0;
 }

@@ -25,8 +25,12 @@
 #dispo, #indispo {
   text-decoration: none;
   color: white;
-  border: 0.5mm ridge rgb(50,50,50);
+  border: 2px inset rgb(50,50,50);
   margin-bottom: 30px;
+}
+
+#dispo:hover, #indispo:hover {
+  border: 2px outset rgb(50,50,50);
 }
 
 #dispo {

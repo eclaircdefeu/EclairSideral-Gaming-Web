@@ -16,19 +16,23 @@
 
 .article-vip {
   width: 33%;
-  heigth: 75px;
+  background-color: rgb(220,172,9);
   text-align: center;
   flex-basis: calc(33.33% - 20px);
   margin-bottom: 20px;
-  background-color: rgb(220,172,9);
+}
+
+#dispo  #indispo {
+  text-decoration: none;
+  margin-bottom: 20px;
+  color: white;
+  border: 2px ridge rgb(50,50,50);
 }
 
 #dispo {
   background-color: green;
-  margin-bottom: 10px;
 }
 
 #indispo {
   background-color: red;
-  margin-bottom: 10px;
 }

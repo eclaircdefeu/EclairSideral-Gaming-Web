@@ -26,7 +26,6 @@
   text-decoration: none;
   color: white;
   border: 2px outset rgb(50,50,50);
-  margin-bottom: 50px;
 }
 
 #dispo:hover, #indispo:hover {
